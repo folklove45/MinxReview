@@ -14,6 +14,13 @@
 		A3FD295D1CF1995400554BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FD295B1CF1995400554BCD /* LaunchScreen.storyboard */; };
 		A3FD29681CF1995400554BCD /* MinxReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FD29671CF1995400554BCD /* MinxReviewTests.swift */; };
 		A3FD29731CF1995500554BCD /* MinxReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FD29721CF1995500554BCD /* MinxReviewUITests.swift */; };
+		A3FD298C1CF19D4F00554BCD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FD29831CF19D4F00554BCD /* HomeViewController.swift */; };
+		A3FD298D1CF19D4F00554BCD /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FD29841CF19D4F00554BCD /* LogoutViewController.swift */; };
+		A3FD298F1CF19D4F00554BCD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FD29861CF19D4F00554BCD /* SearchViewController.swift */; };
+		A3FD29901CF19D4F00554BCD /* ShoesReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FD29871CF19D4F00554BCD /* ShoesReviewViewController.swift */; };
+		A3FD29911CF19D4F00554BCD /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FD29891CF19D4F00554BCD /* ChangePasswordViewController.swift */; };
+		A3FD29921CF19D4F00554BCD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FD298A1CF19D4F00554BCD /* LoginViewController.swift */; };
+		A3FD29931CF19D4F00554BCD /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FD298B1CF19D4F00554BCD /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		A3FD296E1CF1995500554BCD /* MinxReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinxReviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3FD29721CF1995500554BCD /* MinxReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinxReviewUITests.swift; sourceTree = "<group>"; };
 		A3FD29741CF1995500554BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3FD29831CF19D4F00554BCD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A3FD29841CF19D4F00554BCD /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		A3FD29861CF19D4F00554BCD /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A3FD29871CF19D4F00554BCD /* ShoesReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoesReviewViewController.swift; sourceTree = "<group>"; };
+		A3FD29891CF19D4F00554BCD /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		A3FD298A1CF19D4F00554BCD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A3FD298B1CF19D4F00554BCD /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,8 @@
 		A3FD29511CF1995400554BCD /* MinxReview */ = {
 			isa = PBXGroup;
 			children = (
+				A3FD29821CF19D4F00554BCD /* TabBarController */,
+				A3FD29881CF19D4F00554BCD /* ViewControllers */,
 				A3FD29521CF1995400554BCD /* AppDelegate.swift */,
 				A3FD29541CF1995400554BCD /* ViewController.swift */,
 				A3FD29561CF1995400554BCD /* Main.storyboard */,
@@ -123,6 +139,27 @@
 				A3FD29741CF1995500554BCD /* Info.plist */,
 			);
 			path = MinxReviewUITests;
+			sourceTree = "<group>";
+		};
+		A3FD29821CF19D4F00554BCD /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				A3FD29831CF19D4F00554BCD /* HomeViewController.swift */,
+				A3FD29841CF19D4F00554BCD /* LogoutViewController.swift */,
+				A3FD29861CF19D4F00554BCD /* SearchViewController.swift */,
+				A3FD29871CF19D4F00554BCD /* ShoesReviewViewController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		A3FD29881CF19D4F00554BCD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A3FD29891CF19D4F00554BCD /* ChangePasswordViewController.swift */,
+				A3FD298A1CF19D4F00554BCD /* LoginViewController.swift */,
+				A3FD298B1CF19D4F00554BCD /* RegisterViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +293,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FD29921CF19D4F00554BCD /* LoginViewController.swift in Sources */,
+				A3FD29931CF19D4F00554BCD /* RegisterViewController.swift in Sources */,
+				A3FD298F1CF19D4F00554BCD /* SearchViewController.swift in Sources */,
+				A3FD29911CF19D4F00554BCD /* ChangePasswordViewController.swift in Sources */,
 				A3FD29551CF1995400554BCD /* ViewController.swift in Sources */,
 				A3FD29531CF1995400554BCD /* AppDelegate.swift in Sources */,
+				A3FD298D1CF19D4F00554BCD /* LogoutViewController.swift in Sources */,
+				A3FD298C1CF19D4F00554BCD /* HomeViewController.swift in Sources */,
+				A3FD29901CF19D4F00554BCD /* ShoesReviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +447,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MinxReview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KumulosAPI",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.FolkSonG.MinxReview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +462,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MinxReview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KumulosAPI",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.FolkSonG.MinxReview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
