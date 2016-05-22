@@ -37,7 +37,7 @@ class ChangePasswordViewController: UIViewController {
                         txtSuccess.hidden = false
                     }
                 }*/
-        /*if(txtUsername.text != "" && txtPassword.text != "" && txtNewPassword.text != ""){
+        if(txtUsername.text != "" && txtPassword.text != "" && txtNewPassword.text != ""){
             let kumuAPI = Kumulos()
             kumuAPI.updateUserWithUsername(txtUsername.text, andPassword: txtNewPassword.text)
             
@@ -56,7 +56,7 @@ class ChangePasswordViewController: UIViewController {
             myAlert.addAction(okAction)
             
             self.presentViewController(myAlert, animated: true, completion: nil)
-        }*/
+        }
         
     }
 

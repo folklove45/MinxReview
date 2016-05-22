@@ -10,7 +10,7 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
-    @IBOutlet weak var txtShoesname: UILabel!
+    //@IBOutlet weak var txtShoesname: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()

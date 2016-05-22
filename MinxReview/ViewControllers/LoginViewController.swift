@@ -30,7 +30,7 @@ class LoginViewController: UIViewController {
     
     @IBAction func buttonLogIn_OnClick() {
         self.performSegueWithIdentifier("TabBarView", sender: self)
-        /*let kumuAPI = Kumulos()
+        let kumuAPI = Kumulos()
     if(kumuAPI.selectUserWithUsername(textUsername.text, andPassword: textPassword.text) != ""){
         
         self.performSegueWithIdentifier("TabBarView", sender: self)
@@ -50,7 +50,7 @@ class LoginViewController: UIViewController {
         
         self.presentViewController(myAlert, animated: true, completion: nil)
         
-        }*/
+        }
         
     }
     

@@ -30,7 +30,7 @@ class RegisterViewController: UIViewController {
     
     @IBAction func buttonSignUp_OnClick() {
         //เช็คไม่ให้ช่องแต่ละช่องเป็นค่าว่าง
-        /*if(txtPassword.text==txtConfirmPassword.text && txtUsername.text != "" && txtPassword.text != "" && txtConfirmPassword != "" && txtEmail.text != ""){
+        if(txtPassword.text==txtConfirmPassword.text && txtUsername.text != "" && txtPassword.text != "" && txtConfirmPassword != "" && txtEmail.text != ""){
             let kumuAPI = Kumulos()
             kumuAPI.createUserWithUsername(txtUsername.text, andPassword: txtPassword.text, andEmail: txtEmail.text)
             Successfully.hidden = false
@@ -50,7 +50,7 @@ class RegisterViewController: UIViewController {
             
             self.presentViewController(myAlert, animated: true, completion: nil)
 
-        }*/
+        }
     }
     
 }

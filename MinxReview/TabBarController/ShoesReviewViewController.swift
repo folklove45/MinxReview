@@ -60,7 +60,7 @@ class ShoesReviewViewController: UIViewController,UIImagePickerControllerDelegat
         
         //self.performSegueWithIdentifier("ShoesReviewToTabBar", sender: self)
         
-        /*let kumuAPI = Kumulos()
+        let kumuAPI = Kumulos()
         
         if(txtPhoto.image != nil && txtDescribe.text != ""){
             let imageNSData = UIImageJPEGRepresentation(txtPhoto.image! , 1)
@@ -96,7 +96,7 @@ class ShoesReviewViewController: UIViewController,UIImagePickerControllerDelegat
             
             self.presentViewController(myAlert, animated: true, completion: nil)
             
-        }*/
+        }
 
     }
     
