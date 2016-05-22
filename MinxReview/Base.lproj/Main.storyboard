@@ -332,6 +332,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wwa-zP-Lz2">
                                         <rect key="frame" x="162" y="532" width="51" height="45"/>
                                         <state key="normal" image="Camera logo"/>
+                                        <connections>
+                                            <action selector="buttonPhotoLibrary_OnClick:" destination="xkb-Kp-Rid" eventType="touchUpInside" id="YQR-UH-NOT"/>
+                                        </connections>
                                     </button>
                                     <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UNd-6r-wbY">
                                         <rect key="frame" x="8" y="15" width="359" height="42"/>
@@ -362,6 +365,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="PhotoLibrary" destination="wwa-zP-Lz2" id="Z7V-Gq-4Ei"/>
                         <outlet property="tabSelect" destination="UNd-6r-wbY" id="TTj-qw-toO"/>
                         <outlet property="txtDescribe" destination="lzZ-H4-lMX" id="UVh-kg-4Fa"/>
                         <outlet property="txtPhoto" destination="MtP-64-A9i" id="2v3-7k-HEn"/>
